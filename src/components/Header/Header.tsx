@@ -1,9 +1,12 @@
-// import React from 'react';
+import {MenuBar} from "@/components";
+import './Header.scss';
+import { menuBarOptions } from "@/utils";
 
 function Header() {
   return (
-    <div>
-      
+    <div className="header-container">
+      <img src='/logo.jpeg' alt='company logo' className="header-logo" />
+      <MenuBar options={menuBarOptions} />
     </div>
   )
 }

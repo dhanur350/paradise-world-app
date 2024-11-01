@@ -1,0 +1,12 @@
+@import "../../scss/var";
+@import "../../scss/mixin";
+
+.header-container {
+  @include flex-column;
+  padding: 8px;
+  box-shadow: 0 0 4px solid $green-color;
+
+  .header-logo {
+    width: 2rem;
+  }
+}
