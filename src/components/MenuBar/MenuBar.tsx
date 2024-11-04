@@ -1,5 +1,6 @@
 import classNames from "classnames";
 import { Link } from "react-router-dom";
+// import { SvgIcon } from "..";
 
 interface Props {
   isMobile?: boolean;
@@ -13,7 +14,7 @@ function MenuBar(props: Props) {
     return(
       <Link key={index} to={item.path}>
         <span>{item.name}</span>
-        <SvgIcon />
+        {/* <SvgIcon name={item.icon} /> */}
       </Link>
     )
   }
