@@ -4,6 +4,7 @@
 .header-container {
   @include flex-column;
   padding: 8px;
+  margin: 8px;
   box-shadow: 0 0 4px solid $green-color;
 
   .header-logo {
