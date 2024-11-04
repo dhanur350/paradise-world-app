@@ -1,5 +1,5 @@
-import {MenuBar} from "@/components";
 import './Header.scss';
+import {MenuBar} from "@/components";
 import { menuBarOptions } from "@/utils";
 
 function Header() {

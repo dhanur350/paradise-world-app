@@ -10,7 +10,7 @@ function MenuBar(props: Props) {
 
   const renderOptions = (item: any, index: number) => {
     return(
-      <span key={index}>{item}</span>
+      <span key={index}>{item.name}</span>
     )
   }
 
