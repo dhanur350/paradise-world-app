@@ -2,7 +2,8 @@
 @import "../../scss/mixin";
 
 .header-container {
-  @include flex-column;
+  @include flex-justify-between;
+  align-items: center;
   padding: 8px;
   margin: 8px;
   box-shadow: 0 0 4px $green-color;

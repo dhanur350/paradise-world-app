@@ -1,4 +1,5 @@
 import classNames from "classnames";
+import { Link } from "react-router-dom";
 
 interface Props {
   isMobile?: boolean;
@@ -6,11 +7,14 @@ interface Props {
 }
 
 function MenuBar(props: Props) {
-  const { isMobile, options} = props;
+  const { isMobile, options } = props;
 
   const renderOptions = (item: any, index: number) => {
     return(
-      <span key={index}>{item.name}</span>
+      <Link key={index} to={item.path}>
+        <span>{item.name}</span>
+        <SvgIcon />
+      </Link>
     )
   }
 

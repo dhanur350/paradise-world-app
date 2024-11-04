@@ -1,7 +1,7 @@
 export const menuBarOptions: any[] = [
   {
     icon: "",
-    name: "",
+    name: "Home",
     path: ""
   },
   {
