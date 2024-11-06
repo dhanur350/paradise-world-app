@@ -4,9 +4,12 @@
 .header-container {
   @include flex-justify-between;
   align-items: center;
-  padding: 8px;
+  padding: 1rem;
   margin: 8px;
+  border-radius: 10px;
   box-shadow: 0 0 4px $green-color;
+  background-color: $primary-color;
+  z-index: 1;
 
   .header-logo {
     width: 2rem;

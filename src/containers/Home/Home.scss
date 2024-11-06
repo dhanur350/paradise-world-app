@@ -9,13 +9,18 @@
 
     .homepage-welcome-intro-container {
       @include flex-column;
+      padding: 100px;
 
       .homepage-welcome-to {
         margin: 0;
+        font-size: 40px;
+        font-weight: 500;
       }
   
       .homepage-paradise-world-kangra {
         display: flex;
+        font-size: 25px;
+        padding-bottom: 3rem;
 
         .homepage-welcome-intro-paradise-text {
           color: $green-shade-1;
@@ -27,6 +32,38 @@
           margin: 0;
         }
       }
+
+      .homepage-your-ultimate-beauty {
+        font-size: 20px;
+      }
+
+      .homepage-nestled-in-the-serene {
+        width: 50%;
+      }
+
+      .homepage-explore-more-button {
+        width: 300px;
+        font-size: 25px;
+        padding: 1rem;
+        margin-top: 3rem;
+      }
+    }
+  }
+
+  .homepage-welcome-image-container {
+    position: relative;
+
+    .homepage-welcome-award-image{
+      position: absolute;
+      left: -200px;
+      top: 160px;
+    }
+    .homepage-welcome-image-background {
+      background: $green-gradient;
+      width: 500px;
+      height: 800px;
+      margin-top: -75px;
+      border-bottom-left-radius: 100px;
     }
   }
 }
