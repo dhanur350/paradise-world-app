@@ -1,0 +1,18 @@
+@import "../../scss/mixin";
+@import "../../scss/var";
+
+.menubar-container {
+  .menubar-links {
+    text-decoration: none;
+    color: $default-color;
+    padding: 0 1rem;
+
+    &:hover {
+      color: $green-shade-1;
+    }
+  }
+}
+
+.menubar-container-mobile {
+  border-radius: 8px; 
+}

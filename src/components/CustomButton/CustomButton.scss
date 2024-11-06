@@ -5,12 +5,22 @@
   outline: none;
   border: none;
   padding: 8px;
+  cursor: pointer;
+  transition: 0.8s ease;
 }
 
 .custom-button-round-shape {
   border-radius: 10px;
 }
 
+.custom-button-transparent {
+  background: transparent;
+}
+
 .custom-button-green-shade-2 {
   background-color: $green-shade-2;
+  
+  &:hover {
+    box-shadow: 0 0 6px $green-shade-2;
+  }
 }
