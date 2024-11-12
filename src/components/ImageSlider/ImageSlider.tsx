@@ -26,8 +26,8 @@ function ImageSlider(props: Props) {
   };
 
   return (
-    <div className={classNames(["image-slider-container", baseClassname], {
-      "image-fade": imageIndex
+    <div className={classNames(["image-slider-container image-fade", baseClassname], {
+      "": imageIndex
     })}>
       <CustomButton onClick={handleBackImageIndex} noBackground baseClassname='image-slider-back-button'>
         <SvgIcon name={CUSTOM_ICON_REF.ArrowLeft} />
