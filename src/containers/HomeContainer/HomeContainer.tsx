@@ -1,5 +1,5 @@
 import "./Homecontainer.scss";
-import { Header } from "@/components"
+import { Footer, Header } from "@/components"
 import { Outlet } from "react-router-dom"
 
 function HomeContainer() {
@@ -8,6 +8,7 @@ function HomeContainer() {
       <Header />
       <div className="outlet-container">
         <Outlet />
+        <Footer />
       </div>
     </div>
   )

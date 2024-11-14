@@ -41,4 +41,5 @@ export const menuBarOptions: any[] = [
 export const imagesURL: any[] = [
   img1,
   img1,
+  img1,
 ]

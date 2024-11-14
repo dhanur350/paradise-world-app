@@ -5,10 +5,16 @@
   display: flex;
   position: relative;
 
-  .image-slider-back-button, .image-slider-forward-button {
+  .image-slider-back-button,
+  .image-slider-forward-button {
     position: absolute;
     z-index: 2;
     color: $primary-color;
+    text-shadow: 0 0 4px $green-shade-2;
+
+    &:hover {
+      color: $green-shade-2;
+    }
   }
 
   .image-slider-back-button {
@@ -21,17 +27,32 @@
   }
 
   .image-slide-display {
+    display: none;
     width: 100%;
     z-index: 1;
+    transition: 0.6s ease;
+    user-select: none;
   }
-  
-  .image-fade {
-    animation-name: fade;
-    animation-duration: 1.5s;
+}
+
+.image-fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {
+    opacity: .4
   }
 
-  @keyframes fade {
-    from {opacity: .4} 
-    to {opacity: 1}
+  to {
+    opacity: 1
   }
+}
+
+.image-active-slider {
+  display: block !important;
+  z-index: 1;
+  transition: 0.6s ease;
+  user-select: none;
 }
