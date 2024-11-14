@@ -1,5 +1,5 @@
 import classNames from 'classnames';
-import { CustomButton } from '..';
+import { CUSTOM_ICON_REF, CustomButton, SvgIcon } from '..';
 import { useEffect, useState } from 'react';
 import './Modal.scss';
 
@@ -24,8 +24,6 @@ function Modal(props: Props) {
     }
   }
 
-  console.log(open);
-  
 
   useEffect(() => {
     setOpenModal(open ?? false);
@@ -40,7 +38,10 @@ function Modal(props: Props) {
     }}
      className={classNames(["modal-container", baseClassname])}>
       <div className={classNames(["modal-area", childClassname])}>
-        {closeButton && <CustomButton noBackground onClick={handleCloseButton} baseClassname='modal-close-button'>close</CustomButton>}
+        {closeButton && 
+          <CustomButton noBackground onClick={handleCloseButton} baseClassname='modal-close-button'>
+            <SvgIcon name={CUSTOM_ICON_REF.CloseSquare} size='small' />
+          </CustomButton>}
         {children}
       </div>
     </div>

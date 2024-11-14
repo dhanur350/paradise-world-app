@@ -1,0 +1,44 @@
+@import "../../scss/var";
+@import "../../scss/mixin";
+
+.footer-container {
+  @include flex-column;
+  margin: 8px;
+  padding: 1rem;
+  box-shadow: 0 0 6px $green-shade-2;
+  border-radius: 8px;
+
+  .footer-title-container {
+    @include flex-justify-between;
+
+    .footer-company-title-text, .footer-follow-us-text {
+      font-size: 25px;
+    }
+  }
+
+  .footer-quick-links-container {
+    @include flex-justify-between;
+    
+    .footer-quick-link-area {
+      @include flex-column;
+
+      .footer-quick-link-title {
+        font-weight: bolder;
+        font-size: 25px;
+      }
+
+      .footer-quick-links {
+        display: flex;
+
+        .footer-quick-link-text {
+          padding-right: 1rem;
+          cursor: pointer;
+
+          &:hover {
+            color: $green-shade-1;
+          }
+        }
+      }
+    }
+  }
+}

@@ -16,9 +16,11 @@
     padding: 20px;
     background: #fff;
     border-radius: 5px;
-    width: 30%;
+    width: 60%;
+    max-height: 80%;
     position: relative;
     transition: all 5s ease-in-out;
+    overflow: auto;
 
     .modal-close-button {
       position: absolute;
@@ -29,6 +31,14 @@
       font-weight: bold;
       text-decoration: none;
       color: #333;
+
+      &::-webkit-scrollbar{
+        display: none;
+      }
+
+      &::-webkit-scrollbar-button {
+        display: none;
+      }
 
       &:hover {
         cursor: pointer;
