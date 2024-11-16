@@ -1,0 +1,8 @@
+@import "../../scss/mixin";
+@import "../../scss/var";
+
+.testimonials-card-container {
+  @include flex-column;
+
+  
+}

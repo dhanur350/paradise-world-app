@@ -101,5 +101,42 @@
         padding-right: 8px;
       }
     }
+
+    .homepage-paradise-feature-container {
+      @include flex-justify-around;
+      align-items: center;
+      padding: 3rem;
+
+      .homepage-paradise-feature-cards-container {
+        @include flex-column;
+        width: 40%;
+
+        .homepage-feature-card-container {
+          @include flex-column;
+          border-radius: 8px;
+          box-shadow: 0 0 6px $green-shade-1;
+          padding: 1rem;
+          margin-bottom: 1rem;
+
+          .homepage-feature-card-title-container {
+            @include flex-align-center;
+
+            .homepage-feature-card-title {
+              padding-left: 1rem;
+              font-size: 22px;
+              padding-bottom: 8px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .homepage-our-testimonials-container {
+    padding-bottom: 2rem;
+    
+    .homepage-our-testimonials-svg {
+      padding: 0 2rem;
+    }
   }
 }

@@ -1,4 +1,4 @@
-import { CustomButton, ImageSlider, SvgIcon } from "@/components";
+import { CUSTOM_ICON_REF, CustomButton, ImageSlider, SvgIcon } from "@/components";
 import awardImg from "@/assets/award-image.png";
 import conferenceImage from "@/assets/conference.png";
 import { imagesURL, paradiseFeatureData } from "@/utils";
@@ -17,8 +17,8 @@ function Home() {
     return (
       <div key={index} className="homepage-feature-card-container">
         <div className="homepage-feature-card-title-container">
-          <SvgIcon name={icon} size="small" />
-          <span>{title}</span>
+          <SvgIcon name={icon} size="medium" />
+          <span className="homepage-feature-card-title">{title}</span>
         </div>
         <p>{description}</p>
       </div>
@@ -67,6 +67,10 @@ function Home() {
           <img src={conferenceImage} alt="" />
           <div className="homepage-paradise-feature-cards-container">{paradiseFeatureData.map(renderParadiseFeatureCard)}</div>
         </div>
+      </div>
+
+      <div className="homepage-our-testimonials-container">
+        <SvgIcon name={CUSTOM_ICON_REF.OurTestimonials} baseClassname="homepage-our-testimonials-svg"/>
       </div>
     </div>
   )
