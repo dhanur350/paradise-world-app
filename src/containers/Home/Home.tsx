@@ -1,7 +1,7 @@
-import { CUSTOM_ICON_REF, CustomButton, ImageSlider, SvgIcon } from "@/components";
+import { CUSTOM_ICON_REF, CustomButton, ImageSlider, SvgIcon, TestimonialsCard } from "@/components";
 import awardImg from "@/assets/award-image.png";
 import conferenceImage from "@/assets/conference.png";
-import { imagesURL, paradiseFeatureData } from "@/utils";
+import { imagesURL, paradiseFeatureData, reviewData } from "@/utils";
 import "./Home.scss";
 
 function Home() {
@@ -24,6 +24,10 @@ function Home() {
       </div>
     )
   }
+
+  const renderReviewData = (item: any, index: number) => (
+    <TestimonialsCard key={index} {...item} />
+  )
 
   return (
     <div className="homepage-container">
@@ -71,6 +75,7 @@ function Home() {
 
       <div className="homepage-our-testimonials-container">
         <SvgIcon name={CUSTOM_ICON_REF.OurTestimonials} baseClassname="homepage-our-testimonials-svg"/>
+        <div className="homepage-reviewes-card-container">{reviewData.map(renderReviewData)}</div>
       </div>
     </div>
   )

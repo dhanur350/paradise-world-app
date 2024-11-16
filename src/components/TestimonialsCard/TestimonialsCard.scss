@@ -3,6 +3,8 @@
 
 .testimonials-card-container {
   @include flex-column;
-
-  
+  border-radius: 10px;
+  box-shadow: 0 0 8px $green-shade-2;
+  padding: 1rem;
+  width: 300px; 
 }
