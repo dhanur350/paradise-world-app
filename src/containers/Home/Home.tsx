@@ -40,6 +40,18 @@ function Home() {
         </div>
         <ImageSlider images={imagesURL} />
       </div>
+
+      <div className="homepage-why-choose-paradise-container">
+        <div className="homepage-why-choose-paradise-title-container">
+          <span className="homepage-why-choose-text">Why choose</span>
+          <span className="lora-font">Paradise World Kangra?</span>
+        </div>
+
+        <div className="homepage-paradise-feature-container">
+          <img src="" alt="" />
+          .homepage
+        </div>
+      </div>
     </div>
   )
 }

@@ -24,7 +24,6 @@ function Modal(props: Props) {
     }
   }
 
-
   useEffect(() => {
     setOpenModal(open ?? false);
   }, [open]);
@@ -32,16 +31,18 @@ function Modal(props: Props) {
   return (
     <>
     <div
-    style={{
-      visibility: openModal ? "visible" : "hidden",
-      opacity: openModal ? "1" : "0"
-    }}
-     className={classNames(["modal-container", baseClassname])}>
+      style={{
+        visibility: openModal ? "visible" : "hidden",
+        opacity: openModal ? "1" : "0"
+      }}
+      className={classNames(["modal-container", baseClassname])}>
       <div className={classNames(["modal-area", childClassname])}>
         {closeButton && 
-          <CustomButton noBackground onClick={handleCloseButton} baseClassname='modal-close-button'>
+        <div className="modal-close-button-container">
+          <CustomButton noPadding noBackground onClick={handleCloseButton} baseClassname='modal-close-button'>
             <SvgIcon name={CUSTOM_ICON_REF.CloseSquare} size='small' />
-          </CustomButton>}
+          </CustomButton>
+        </div>}
         {children}
       </div>
     </div>

@@ -40,5 +40,46 @@
         }
       }
     }
+
+    .footer-follow-us-links-container {
+      display: flex;
+
+      .footer-follow-us-links {
+        margin-left: 1rem;
+      }
+    }
+  }
+
+  .footer-contact-us-text {
+    font-size: 25px;
+    padding-top: 1rem;
+  }
+
+  .footer-contact-details-container {
+    @include flex-justify-between;
+
+    .footer-client-details-container {
+      .footer-client-detail {
+        display: flex;
+        padding-top: 1px;
+
+        .footer-client-contact-text {
+          text-decoration: none;
+          color: $default-color;
+
+          &:hover {
+            color: $green-shade-2;
+          }
+        }
+
+        .footer-client-contact-icon {
+          margin-right: 1rem;
+        }
+
+        &:hover {
+          color: $green-shade-2;
+        }
+      }
+    }
   }
 }

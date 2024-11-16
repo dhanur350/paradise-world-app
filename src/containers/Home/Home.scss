@@ -87,4 +87,19 @@
       }
     }
   }
+
+
+  .homepage-why-choose-paradise-container {
+    padding: 4rem 0;
+
+    .homepage-why-choose-paradise-title-container {
+      @include flex-align-center;
+      justify-content: center;
+      font-size: 40px;
+
+      .homepage-why-choose-text {
+        padding-right: 8px;
+      }
+    }
+  }
 }
