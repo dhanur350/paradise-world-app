@@ -1,6 +1,7 @@
-import { CustomButton, ImageSlider } from "@/components";
+import { CustomButton, ImageSlider, SvgIcon } from "@/components";
 import awardImg from "@/assets/award-image.png";
-import { imagesURL } from "@/utils";
+import conferenceImage from "@/assets/conference.png";
+import { imagesURL, paradiseFeatureData } from "@/utils";
 import "./Home.scss";
 
 function Home() {
@@ -9,17 +10,32 @@ function Home() {
     window.open(import.meta.env.VITE_APP_SERVICE_URL);
   };
 
+  const renderParadiseFeatureCard = (item: any, index: number) => {
+
+    const { icon, title, description } = item;
+
+    return (
+      <div key={index} className="homepage-feature-card-container">
+        <div className="homepage-feature-card-title-container">
+          <SvgIcon name={icon} size="small" />
+          <span>{title}</span>
+        </div>
+        <p>{description}</p>
+      </div>
+    )
+  }
+
   return (
     <div className="homepage-container">
       <div className="homepage-welcome-container">
-        
+
         <div className="homepage-welcome-intro-container">
           <h1 className="homepage-welcome-to">Welcome to</h1>
           <div className="homepage-paradise-world-kangra lora-font">
             <h1 className="homepage-welcome-intro-paradise-text">Paradise</h1>
             <h1 className="homepage-welcome-intro-world-kangra">World Kangra</h1>
           </div>
-          <span className="homepage-your-ultimate-beauty">Your Ultimate Beauty Destination</span> 
+          <span className="homepage-your-ultimate-beauty">Your Ultimate Beauty Destination</span>
           <span className="homepage-your-ultimate-beauty">in Himachal Pradesh!</span>
           <p className="homepage-nestled-in-the-serene">Nestled in the serene town of Kangra, Himachal Pradesh, Paradise World is more than just a beauty salon.</p>
           <span>it's a retreat where beauty meets tranquility.</span>
@@ -48,8 +64,8 @@ function Home() {
         </div>
 
         <div className="homepage-paradise-feature-container">
-          <img src="" alt="" />
-          .homepage
+          <img src={conferenceImage} alt="" />
+          <div className="homepage-paradise-feature-cards-container">{paradiseFeatureData.map(renderParadiseFeatureCard)}</div>
         </div>
       </div>
     </div>
