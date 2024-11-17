@@ -98,4 +98,84 @@ export const reviewData: any[] = [
     description: `I got long bob hair cut done here and my hair ends coloured, I am really impressed with the results. Anil was my hairstylist who did colour and haircut and I am super duper happy. Service was good too. We were offered tea as well while waiting for my hair colour to dry … I had an overall amazing experience. I would definitely recommend the salon specifically Anil for your haircut and colour suggestions. Cheers x`,
     reviewerName: "Aaina Reads"
   },
+  {
+    starRating: 5,
+    description: `I got long bob hair cut done here and my hair ends coloured, I am really impressed with the results. Anil was my hairstylist who did colour and haircut and I am super duper happy. Service was good too. We were offered tea as well while waiting for my hair colour to dry … I had an overall amazing experience. I would definitely recommend the salon specifically Anil for your haircut and colour suggestions. Cheers x`,
+    reviewerName: "Aaina Reads"
+  },
+  {
+    starRating: 5,
+    description: `I got long bob hair cut done here and my hair ends coloured, I am really impressed with the results. Anil was my hairstylist who did colour and haircut and I am super duper happy. Service was good too. We were offered tea as well while waiting for my hair colour to dry … I had an overall amazing experience. I would definitely recommend the salon specifically Anil for your haircut and colour suggestions. Cheers x`,
+    reviewerName: "Aaina Reads"
+  },
+  {
+    starRating: 5,
+    description: `I got long bob hair cut done here and my hair ends coloured, I am really impressed with the results. Anil was my hairstylist who did colour and haircut and I am super duper happy. Service was good too. We were offered tea as well while waiting for my hair colour to dry … I had an overall amazing experience. I would definitely recommend the salon specifically Anil for your haircut and colour suggestions. Cheers x`,
+    reviewerName: "Aaina Reads"
+  },
+  {
+    starRating: 5,
+    description: `I got long bob hair cut done here and my hair ends coloured, I am really impressed with the results. Anil was my hairstylist who did colour and haircut and I am super duper happy. Service was good too. We were offered tea as well while waiting for my hair colour to dry … I had an overall amazing experience. I would definitely recommend the salon specifically Anil for your haircut and colour suggestions. Cheers x`,
+    reviewerName: "Aaina Reads"
+  },
+  {
+    starRating: 5,
+    description: `I got long bob hair cut done here and my hair ends coloured, I am really impressed with the results. Anil was my hairstylist who did colour and haircut and I am super duper happy. Service was good too. We were offered tea as well while waiting for my hair colour to dry … I had an overall amazing experience. I would definitely recommend the salon specifically Anil for your haircut and colour suggestions. Cheers x`,
+    reviewerName: "Aaina Reads"
+  },
+  {
+    starRating: 5,
+    description: `I got long bob hair cut done here and my hair ends coloured, I am really impressed with the results. Anil was my hairstylist who did colour and haircut and I am super duper happy. Service was good too. We were offered tea as well while waiting for my hair colour to dry … I had an overall amazing experience. I would definitely recommend the salon specifically Anil for your haircut and colour suggestions. Cheers x`,
+    reviewerName: "Aaina Reads"
+  },
+  {
+    starRating: 5,
+    description: `I got long bob hair cut done here and my hair ends coloured, I am really impressed with the results. Anil was my hairstylist who did colour and haircut and I am super duper happy. Service was good too. We were offered tea as well while waiting for my hair colour to dry … I had an overall amazing experience. I would definitely recommend the salon specifically Anil for your haircut and colour suggestions. Cheers x`,
+    reviewerName: "Aaina Reads"
+  },
+  {
+    starRating: 5,
+    description: `I got long bob hair cut done here and my hair ends coloured, I am really impressed with the results. Anil was my hairstylist who did colour and haircut and I am super duper happy. Service was good too. We were offered tea as well while waiting for my hair colour to dry … I had an overall amazing experience. I would definitely recommend the salon specifically Anil for your haircut and colour suggestions. Cheers x`,
+    reviewerName: "Aaina Reads"
+  },
+  {
+    starRating: 5,
+    description: `I got long bob hair cut done here and my hair ends coloured, I am really impressed with the results. Anil was my hairstylist who did colour and haircut and I am super duper happy. Service was good too. We were offered tea as well while waiting for my hair colour to dry … I had an overall amazing experience. I would definitely recommend the salon specifically Anil for your haircut and colour suggestions. Cheers x`,
+    reviewerName: "Aaina Reads"
+  },
+  {
+    starRating: 5,
+    description: `I got long bob hair cut done here and my hair ends coloured, I am really impressed with the results. Anil was my hairstylist who did colour and haircut and I am super duper happy. Service was good too. We were offered tea as well while waiting for my hair colour to dry … I had an overall amazing experience. I would definitely recommend the salon specifically Anil for your haircut and colour suggestions. Cheers x`,
+    reviewerName: "Aaina Reads"
+  },
+  {
+    starRating: 5,
+    description: `I got long bob hair cut done here and my hair ends coloured, I am really impressed with the results. Anil was my hairstylist who did colour and haircut and I am super duper happy. Service was good too. We were offered tea as well while waiting for my hair colour to dry … I had an overall amazing experience. I would definitely recommend the salon specifically Anil for your haircut and colour suggestions. Cheers x`,
+    reviewerName: "Aaina Reads"
+  },
+  {
+    starRating: 5,
+    description: `I got long bob hair cut done here and my hair ends coloured, I am really impressed with the results. Anil was my hairstylist who did colour and haircut and I am super duper happy. Service was good too. We were offered tea as well while waiting for my hair colour to dry … I had an overall amazing experience. I would definitely recommend the salon specifically Anil for your haircut and colour suggestions. Cheers x`,
+    reviewerName: "Aaina Reads"
+  },
+  {
+    starRating: 5,
+    description: `I got long bob hair cut done here and my hair ends coloured, I am really impressed with the results. Anil was my hairstylist who did colour and haircut and I am super duper happy. Service was good too. We were offered tea as well while waiting for my hair colour to dry … I had an overall amazing experience. I would definitely recommend the salon specifically Anil for your haircut and colour suggestions. Cheers x`,
+    reviewerName: "Aaina Reads"
+  },
+  {
+    starRating: 5,
+    description: `I got long bob hair cut done here and my hair ends coloured, I am really impressed with the results. Anil was my hairstylist who did colour and haircut and I am super duper happy. Service was good too. We were offered tea as well while waiting for my hair colour to dry … I had an overall amazing experience. I would definitely recommend the salon specifically Anil for your haircut and colour suggestions. Cheers x`,
+    reviewerName: "Aaina Reads"
+  },
+  {
+    starRating: 5,
+    description: `I got long bob hair cut done here and my hair ends coloured, I am really impressed with the results. Anil was my hairstylist who did colour and haircut and I am super duper happy. Service was good too. We were offered tea as well while waiting for my hair colour to dry … I had an overall amazing experience. I would definitely recommend the salon specifically Anil for your haircut and colour suggestions. Cheers x`,
+    reviewerName: "Aaina Reads"
+  },
+  {
+    starRating: 5,
+    description: `I got long bob hair cut done here and my hair ends coloured, I am really impressed with the results. Anil was my hairstylist who did colour and haircut and I am super duper happy. Service was good too. We were offered tea as well while waiting for my hair colour to dry … I had an overall amazing experience. I would definitely recommend the salon specifically Anil for your haircut and colour suggestions. Cheers x`,
+    reviewerName: "Aaina Reads"
+  },
 ]

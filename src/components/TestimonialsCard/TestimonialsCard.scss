@@ -6,5 +6,16 @@
   border-radius: 10px;
   box-shadow: 0 0 8px $green-shade-2;
   padding: 1rem;
-  width: 300px; 
+  margin-right: 100px;
+  min-width: 300px;
+
+
+  .testimonials-card-star-container {
+    display: flex;
+
+    .testimonials-card-star-icon {
+      margin-right: 8px;
+      color: $yellow-color;
+    }
+  }
 }

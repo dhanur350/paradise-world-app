@@ -140,7 +140,14 @@
     }
 
     .homepage-reviewes-card-container {
-      padding: 1rem 0;
+      display: flex;
+      flex-direction: row;
+      padding: 3rem;
+      overflow-x: auto;
+      
+      &::-webkit-scrollbar {
+        display: none;
+      }
     }
   }
 }

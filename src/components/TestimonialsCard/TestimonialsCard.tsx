@@ -13,7 +13,7 @@ function TestimonialsCard(props: Props) {
 
   const renderReviewStars = (item: any, index: number) => {
     return(
-      <SvgIcon name={CUSTOM_ICON_REF.Star} baseClassname='' key={index + item} size='small' />
+      <SvgIcon name={CUSTOM_ICON_REF.Star} baseClassname='testimonials-card-star-icon' key={index + item} size='small' />
     )
   }
 
