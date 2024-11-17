@@ -1,6 +1,6 @@
-import './Header.scss';
-import {MenuBar} from "@/components";
+import { MenuBar } from "@/components";
 import { menuBarOptions } from "@/utils";
+import './Header.scss';
 
 function Header() {
   return (
@@ -11,4 +11,4 @@ function Header() {
   )
 }
 
-export default Header
+export default Header;
