@@ -24,8 +24,7 @@ function TestimonialsCard(props: Props) {
       <div className="testimonials-card-star-container">{Array.from({length}).map(renderReviewStars)}</div>
       <p>{description}</p>
       <div className="testimonial-card-reviewer-name-container">
-        <span>-</span>
-        <span>{reviewerName}</span>
+        <span>{" - "}{reviewerName}</span>
       </div>
     </div>
   )

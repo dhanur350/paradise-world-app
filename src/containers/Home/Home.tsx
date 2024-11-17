@@ -1,7 +1,7 @@
 import { CUSTOM_ICON_REF, CustomButton, ImageSlider, SvgIcon, TestimonialsCard } from "@/components";
+import { imagesURL, paradiseFeatureData, reviewData } from "@/utils";
 import awardImg from "@/assets/award-image.png";
 import conferenceImage from "@/assets/conference.png";
-import { imagesURL, paradiseFeatureData, reviewData } from "@/utils";
 import "./Home.scss";
 
 function Home() {
