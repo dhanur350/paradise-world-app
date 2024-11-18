@@ -1,5 +1,6 @@
 import ArrowLeft from "./Icons/ArrowLeft";
 import ArrowRight from "./Icons/ArrowRight";
+import Burger from "./Icons/Burger";
 import CallIncoming from "./Icons/CallIncoming";
 import CertifyBadge from "./Icons/CertifyBadge";
 import CloseSquare from "./Icons/CloseSquare";
@@ -27,7 +28,8 @@ export enum CUSTOM_ICON_REF {
   TopQuality = 'TopQuality',
   EnvPlant = 'EnvPlant',
   OurTestimonials = 'OurTestimonials',
-  Star = 'Star'
+  Star = 'Star',
+  Burger = 'Burger',
 }
 
 export const IconRef: any = {
@@ -45,4 +47,5 @@ export const IconRef: any = {
   [CUSTOM_ICON_REF.EnvPlant]: EnvPlant,
   [CUSTOM_ICON_REF.OurTestimonials]: OurTestimonials,
   [CUSTOM_ICON_REF.Star]: Star,
+  [CUSTOM_ICON_REF.Burger]: Burger,
 }

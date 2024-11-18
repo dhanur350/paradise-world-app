@@ -14,5 +14,26 @@
 }
 
 .menubar-container-mobile {
-  border-radius: 8px; 
+  display: none;
+}
+
+@media only screen and (max-width: 1000px) {
+
+  .menubar-container {
+    display: none
+  }
+
+  .menubar-container-mobile {
+    @include flex-column;
+    position: absolute;
+    top: 0;
+    right: 9px;
+    border-radius: 8px;
+    box-shadow: 0 0 4px $green-color;
+    background-color: $primary-color;
+
+    .menubar-links {
+      padding: 8px 1rem;
+    }
+  }
 }
