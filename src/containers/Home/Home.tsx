@@ -39,6 +39,15 @@ function Home() {
             <h1 className="homepage-welcome-intro-paradise-text">Paradise</h1>
             <h1 className="homepage-welcome-intro-world-kangra">World Kangra</h1>
           </div>
+          <img src={awardImg} alt="award-image" className="homepage-welcome-mobile-award-image" />
+          <span className="homepage-your-ultimate-beauty">Your Ultimate Beauty Destination</span>
+          <span className="homepage-your-ultimate-beauty">in Himachal Pradesh!</span>
+          <p className="homepage-nestled-in-the-serene">Nestled in the serene town of Kangra, Himachal Pradesh, Paradise World is more than just a beauty salon.</p>
+          <span className="homepage-its-a-retreat">it's a retreat where beauty meets tranquility.</span>
+          <CustomButton round baseClassname="homepage-explore-more-button" greenShade2 onClick={handleNavigateRedirection}>Explore more</CustomButton>
+        </div>
+
+        <div className="homepage-intro-mobile-welcome-container">
           <span className="homepage-your-ultimate-beauty">Your Ultimate Beauty Destination</span>
           <span className="homepage-your-ultimate-beauty">in Himachal Pradesh!</span>
           <p className="homepage-nestled-in-the-serene">Nestled in the serene town of Kangra, Himachal Pradesh, Paradise World is more than just a beauty salon.</p>
@@ -74,7 +83,7 @@ function Home() {
       </div>
 
       <div className="homepage-our-testimonials-container">
-        <SvgIcon name={CUSTOM_ICON_REF.OurTestimonials} baseClassname="homepage-our-testimonials-svg"/>
+        <SvgIcon name={CUSTOM_ICON_REF.OurTestimonials} baseClassname="homepage-our-testimonials-svg" />
         <div className="homepage-reviewes-card-container">{reviewData.map(renderReviewData)}</div>
       </div>
     </div>

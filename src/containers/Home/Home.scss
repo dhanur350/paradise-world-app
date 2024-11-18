@@ -11,6 +11,10 @@
       @include flex-column;
       padding: 100px;
 
+      .homepage-welcome-mobile-award-image {
+        display: none;
+      }
+
       .homepage-welcome-to {
         margin: 0;
         font-size: 40px;
@@ -47,6 +51,10 @@
         padding: 1rem;
         margin-top: 3rem;
       }
+    }
+
+    .homepage-intro-mobile-welcome-container {
+      display: none;
     }
 
     .homepage-welcome-image-container {
@@ -199,7 +207,6 @@
       }
   
       .homepage-welcome-image-container {
-        position: relative;
     
         .homepage-welcome-award-image{
           position: absolute;
@@ -311,7 +318,25 @@
       .homepage-welcome-intro-container {
         align-items: center;
         padding: 100px 80px;
-  
+        background: $green-gradient;
+
+        .homepage-welcome-mobile-award-image {
+          display: block;
+        }
+
+        .homepage-your-ultimate-beauty,
+        .homepage-nestled-in-the-serene,
+        .homepage-its-a-retreat,
+        .homepage-explore-more-button {
+          display: none  
+        }
+      }
+
+      .homepage-intro-mobile-welcome-container {
+        @include flex-align-center;
+        flex-direction: column;
+        padding-top: 3rem;
+
         .homepage-welcome-to {
           margin: 0;
           font-size: 40px;
@@ -340,6 +365,7 @@
   
         .homepage-nestled-in-the-serene {
           width: 50%;
+          text-align: center;
         }
   
         .homepage-explore-more-button {
@@ -351,7 +377,190 @@
       }
   
       .homepage-welcome-image-container {
-        position: relative;
+        display: none;
+    
+        .homepage-welcome-award-image{
+          position: absolute;
+          left: -150px;
+          top: 160px;
+          width: 300px;
+          // filter: ;
+        }
+        .homepage-welcome-image-background {
+          background: $green-gradient;
+          width: 300px;
+          height: 750px;
+          margin-top: -75px;
+          border-bottom-left-radius: 100px;
+        }
+      }
+    }
+  
+    .homepage-featuring-container {
+      background: $green-gradient;
+      padding-top: 1rem;
+      margin-top: 10rem;
+      border-top-left-radius: 40px;
+      border-top-right-radius: 40px;
+  
+      .homepage-featuring-title-container {
+        @include flex-align-center;
+        flex-direction: column;
+        font-size: 25px;
+        padding-bottom: 3rem;
+  
+        .homepage-featuring-title {
+          font-weight: 400;
+          margin: 0;
+        }
+      }
+    }
+  
+  
+    .homepage-why-choose-paradise-container {
+      padding: 4rem 0;
+  
+      .homepage-why-choose-paradise-title-container {
+        @include flex-align-center;
+        justify-content: center;
+        font-size: 40px;
+  
+        .homepage-why-choose-text {
+          padding-right: 8px;
+        }
+      }
+  
+      .homepage-paradise-feature-container {
+        @include flex-justify-around;
+        align-items: center;
+        padding: 3rem;
+  
+        .homepage-paradise-feature-cards-container {
+          @include flex-column;
+          width: 40%;
+  
+          .homepage-feature-card-container {
+            @include flex-column;
+            border-radius: 8px;
+            box-shadow: 0 0 6px $green-shade-1;
+            padding: 1rem;
+            margin-bottom: 1rem;
+  
+            .homepage-feature-card-title-container {
+              @include flex-align-center;
+  
+              .homepage-feature-card-title {
+                padding-left: 1rem;
+                font-size: 22px;
+                padding-bottom: 8px;
+              }
+            }
+          }
+        }
+      }
+    }
+  
+    .homepage-our-testimonials-container {
+      padding-bottom: 2rem;
+      
+      .homepage-our-testimonials-svg {
+        padding: 0 2rem;
+      }
+  
+      .homepage-reviewes-card-container {
+        display: flex;
+        flex-direction: row;
+        padding: 3rem;
+        overflow-x: auto;
+        
+        &::-webkit-scrollbar {
+          display: none;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .homepage-container {
+  
+    .homepage-welcome-container {
+  
+      .homepage-welcome-intro-container {
+
+        .homepage-welcome-mobile-award-image {
+          width: 300px;
+        }
+        
+        .homepage-welcome-to {
+          font-size: 30px;
+        }
+
+        .homepage-paradise-world-kangra {
+          font-size: 16px;
+
+          .homepage-welcome-intro-world-kangra {
+            text-wrap: nowrap;
+          }
+        }
+
+        // .homepage-welcome-mobile-award-image {
+        // }
+
+        // .homepage-your-ultimate-beauty,
+        // .homepage-nestled-in-the-serene,
+        // .homepage-its-a-retreat,
+        // .homepage-explore-more-button {
+          
+        // }
+      }
+
+      .homepage-intro-mobile-welcome-container {
+        @include flex-align-center;
+        flex-direction: column;
+        padding-top: 3rem;
+
+        .homepage-welcome-to {
+          margin: 0;
+          font-size: 40px;
+          font-weight: 500;
+        }
+    
+        .homepage-paradise-world-kangra {
+          display: flex;
+          font-size: 25px;
+          padding-bottom: 3rem;
+  
+          .homepage-welcome-intro-paradise-text {
+            color: $green-shade-1;
+            margin: 0;
+          }
+  
+          .homepage-welcome-intro-world-kangra {
+            padding-left: 8px;
+            margin: 0;
+          }
+        }
+  
+        .homepage-your-ultimate-beauty {
+          font-size: 20px;
+        }
+  
+        .homepage-nestled-in-the-serene {
+          width: 50%;
+          text-align: center;
+        }
+  
+        .homepage-explore-more-button {
+          width: 200px;
+          font-size: 18px;
+          padding: 1rem;
+          margin-top: 3rem;
+        }
+      }
+  
+      .homepage-welcome-image-container {
+        display: none;
     
         .homepage-welcome-award-image{
           position: absolute;
