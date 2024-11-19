@@ -77,13 +77,15 @@ function Home() {
         </div>
 
         <div className="homepage-paradise-feature-container">
-          <img src={conferenceImage} alt="" />
+          <img src={conferenceImage} alt="" className="homepage-paradise-feature-conference-image" />
           <div className="homepage-paradise-feature-cards-container">{paradiseFeatureData.map(renderParadiseFeatureCard)}</div>
         </div>
       </div>
 
       <div className="homepage-our-testimonials-container">
         <SvgIcon name={CUSTOM_ICON_REF.OurTestimonials} baseClassname="homepage-our-testimonials-svg" />
+        <SvgIcon name={CUSTOM_ICON_REF.OurTestimonialsMobile} baseClassname="homepage-our-testimonials-mobile-svg" />
+        <span className="homepage-our-testimonial-title lora-font">What people say about us?</span>
         <div className="homepage-reviewes-card-container">{reviewData.map(renderReviewData)}</div>
       </div>
     </div>

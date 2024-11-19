@@ -10,6 +10,7 @@ import Facebook from "./Icons/Facebook";
 import Instagram from "./Icons/Instagram";
 import Linkedin from "./Icons/Linkedin";
 import OurTestimonials from "./Icons/OurTestimonials";
+import OurTestimonialsMobile from "./Icons/OurTestimonialsMobile";
 import Star from "./Icons/Star";
 import Threads from "./Icons/Threads";
 import TopQuality from "./Icons/TopQuality";
@@ -28,6 +29,7 @@ export enum CUSTOM_ICON_REF {
   TopQuality = 'TopQuality',
   EnvPlant = 'EnvPlant',
   OurTestimonials = 'OurTestimonials',
+  OurTestimonialsMobile = 'OurTestimonialsMobile',
   Star = 'Star',
   Burger = 'Burger',
 }
@@ -46,6 +48,7 @@ export const IconRef: any = {
   [CUSTOM_ICON_REF.TopQuality]: TopQuality,
   [CUSTOM_ICON_REF.EnvPlant]: EnvPlant,
   [CUSTOM_ICON_REF.OurTestimonials]: OurTestimonials,
+  [CUSTOM_ICON_REF.OurTestimonialsMobile]: OurTestimonialsMobile,
   [CUSTOM_ICON_REF.Star]: Star,
   [CUSTOM_ICON_REF.Burger]: Burger,
 }
