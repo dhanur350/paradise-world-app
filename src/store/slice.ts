@@ -1,5 +1,5 @@
 import { createSlice } from "@reduxjs/toolkit";
-import { setToggleMenuR } from "./reducer";
+import { setEmployeesDataR, setToggleMenuR } from "./reducer";
 
 export interface IParadsieAppInitialState {
   toggleMenu: boolean;
@@ -8,10 +8,12 @@ export interface IParadsieAppInitialState {
 const paradiseSlice = createSlice({
   name: "paradiseapp",
   initialState: {
-    toggleMenu: false
+    toggleMenu: false,
+    employeesData: []
   },
   reducers: {
-    setToggleMenu: setToggleMenuR
+    setToggleMenu: setToggleMenuR,
+    setEmployeedData: setEmployeesDataR
   }
 });
 
