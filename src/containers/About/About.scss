@@ -1,0 +1,19 @@
+@import "../../scss/mixin";
+@import "../../scss/var";
+
+.about-page-container {
+  .about-page-banner-container {
+    @include flex-justify-center;
+    background-image: url("../../assets/about-page-banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    // padding: 100px;
+    padding-top: 2rem;
+    height: 400px;
+    width: 100%;
+
+    .about-page-title {
+      font-size: 40px;
+    }
+  }
+}
